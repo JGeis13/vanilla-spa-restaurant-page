@@ -1,9 +1,8 @@
 import "./style.css";
 
-// import buildHomePage from "./pages/home";
-import buildContactPage from "./pages/contact";
+import buildHomePage from "./pages/home";
 import renderPage from "./functions/navigation";
 
 (() => {
-  renderPage(buildContactPage(), "contact");
+  renderPage(buildHomePage(), "home");
 })();
